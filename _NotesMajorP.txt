@@ -1,0 +1,49 @@
+>PROJECT Phase 1 ( part a)
+    #Liting Model:
+    for default image: https://mongoosejs.com/docs/guide.html#virtuals
+
+    - ternary operator -> shortcut for if- else conditions
+
+    #initialize database -> init
+
+    #index Rout
+    GET /listings -> all listings
+    Views folder -> for ejs
+    GET /listings/:id (show Route) -> specific listing data view
+
+    #Read: Show Route /listings/:id
+        - toLocaleString function use to give come(,) between numbers like rupees(&#8377;)
+
+    #Create : New & Create Route 
+        - GET  /listings/new   -> Form  (when we submit) -> POST /listings 
+
+    #Update: Edit & Update Route - 
+        GET  /listings/:id/edit  -> ediit form(render)  ->submit 
+        PUT  /listings/:id 
+
+    #Delete: Delete Route 
+        Delete   /listings/:id 
+
+>PROJECT Phase 1 (part b)
+    #Creating Biolerplate
+        What is EJS Mate?
+        - npm in ejs-mate
+        => new folder views/layouts
+        - to change the content on different pages of saame boilerplate 
+            we use => layout { boilerplate} 
+            - removed all tag in index.ejs expect body tag
+        https://www.npmjs.com/package/ejs-mate 
+    
+    #NavBar : 
+    Creating navbar -
+
+    #Footer : 
+    #Styling Index :
+
+    <div class:"card-img-overlay">  ->for writing on the image in bootstrap
+
+    #Styling New Page: form page (new page)
+    #Styling Edit Page : edit.ejs 
+    #Styling Show Listing : Show Page
+
+>Middleware : 
